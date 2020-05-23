@@ -2,8 +2,8 @@
 //  Data+Extention.swift
 //  Kunal Gupta
 //
-//  Created by Dharmesh on 18/06/19.
-//  //  Copyright © 2018 Kunal Gupta Financial Corp. All rights reserved.
+//  Created by Kunal Gupta on 18/06/19.
+//  //  Copyright © 2018 Kunal Gupta All rights reserved.
 //
 
 import Foundation

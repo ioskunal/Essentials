@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Regular.ttf">
+            <string>Muli-Regular</string>
+        </array>
+        <array key="Muli-SemiBold.ttf">
+            <string>Muli-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DatePicker" customModule="Novo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCancel" destination="8LW-Hp-6J5" id="yYG-Ec-Nfc"/>
+                <outlet property="btnDone" destination="Gat-EO-CEy" id="9gM-T8-BFg"/>
+                <outlet property="datePicker" destination="CMk-c9-9hA" id="0Rf-Om-GGI"/>
+                <outlet property="labelTitle" destination="iBx-HC-s9G" id="l5f-fG-xnc"/>
+                <outlet property="viewBackground" destination="7RA-lr-aIU" id="Rmx-EJ-J32"/>
+                <outlet property="viewContent" destination="JTh-Jl-0by" id="stE-At-OwK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7RA-lr-aIU">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JTh-Jl-0by">
+                    <rect key="frame" x="0.0" y="608" width="414" height="288"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="CMk-c9-9hA">
+                            <rect key="frame" x="0.0" y="40" width="414" height="248"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="248" id="1aB-Yb-hQL"/>
+                            </constraints>
+                        </datePicker>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-EO-CEy">
+                            <rect key="frame" x="353" y="0.0" width="45" height="40"/>
+                            <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="18"/>
+                            <state key="normal" title="Done"/>
+                            <connections>
+                                <action selector="actionBtnDone:" destination="-1" eventType="touchUpInside" id="2fO-wQ-F8q"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LW-Hp-6J5">
+                            <rect key="frame" x="16" y="0.0" width="57" height="40"/>
+                            <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="18"/>
+                            <state key="normal" title="Cancel"/>
+                            <connections>
+                                <action selector="actionBtnCancel:" destination="-1" eventType="touchUpInside" id="YAP-f6-3Ej"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBx-HC-s9G">
+                            <rect key="frame" x="162.5" y="8.5" width="89" height="23"/>
+                            <fontDescription key="fontDescription" name="Muli-SemiBold" family="Muli" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="iBx-HC-s9G" firstAttribute="centerX" secondItem="JTh-Jl-0by" secondAttribute="centerX" id="4mA-42-9pQ"/>
+                        <constraint firstItem="8LW-Hp-6J5" firstAttribute="top" secondItem="JTh-Jl-0by" secondAttribute="top" id="5CB-ih-1hy"/>
+                        <constraint firstItem="CMk-c9-9hA" firstAttribute="top" secondItem="8LW-Hp-6J5" secondAttribute="bottom" id="FAM-e9-dbj"/>
+                        <constraint firstAttribute="bottom" secondItem="CMk-c9-9hA" secondAttribute="bottom" id="WNb-fC-Tu9"/>
+                        <constraint firstItem="iBx-HC-s9G" firstAttribute="centerY" secondItem="8LW-Hp-6J5" secondAttribute="centerY" id="ZBm-rC-HG8"/>
+                        <constraint firstItem="Gat-EO-CEy" firstAttribute="top" secondItem="8LW-Hp-6J5" secondAttribute="top" id="eTp-mW-hJp"/>
+                        <constraint firstItem="CMk-c9-9hA" firstAttribute="leading" secondItem="JTh-Jl-0by" secondAttribute="leading" id="fGS-9c-OE3"/>
+                        <constraint firstAttribute="trailing" secondItem="CMk-c9-9hA" secondAttribute="trailing" id="fgz-VO-hp9"/>
+                        <constraint firstAttribute="trailing" secondItem="Gat-EO-CEy" secondAttribute="trailing" constant="16" id="h5B-aE-cr3"/>
+                        <constraint firstItem="Gat-EO-CEy" firstAttribute="bottom" secondItem="8LW-Hp-6J5" secondAttribute="bottom" id="lkC-GY-3fb"/>
+                        <constraint firstItem="8LW-Hp-6J5" firstAttribute="leading" secondItem="JTh-Jl-0by" secondAttribute="leading" constant="16" id="oXH-yS-E5P"/>
+                        <constraint firstAttribute="height" constant="288" id="y0K-le-ph7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7RA-lr-aIU" secondAttribute="trailing" id="6El-uz-yR1"/>
+                <constraint firstItem="7RA-lr-aIU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Nvx-rJ-h3t"/>
+                <constraint firstAttribute="bottom" secondItem="JTh-Jl-0by" secondAttribute="bottom" id="U1v-t7-49u"/>
+                <constraint firstItem="JTh-Jl-0by" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YF3-Vu-81g"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="JTh-Jl-0by" secondAttribute="trailing" id="i8C-cC-KMK"/>
+                <constraint firstAttribute="bottom" secondItem="7RA-lr-aIU" secondAttribute="bottom" id="q62-io-Zub"/>
+                <constraint firstItem="7RA-lr-aIU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qTY-sl-qtt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="62.318840579710148" y="52.901785714285715"/>
+        </view>
+    </objects>
+</document>

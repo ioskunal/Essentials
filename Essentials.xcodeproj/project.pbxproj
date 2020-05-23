@@ -34,6 +34,24 @@
 		6EE717CA2479A1BA00BF6F56 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717B42479A1BA00BF6F56 /* UIApplicationExtensions.swift */; };
 		6EE717CB2479A1BA00BF6F56 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717B52479A1BA00BF6F56 /* UIDeviceExtensions.swift */; };
 		6EE717CC2479A1BA00BF6F56 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717B62479A1BA00BF6F56 /* UIColorExtensions.swift */; };
+		6EE717CF2479A34100BF6F56 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717CE2479A34100BF6F56 /* DateFormat.swift */; };
+		6EE717D62479A37300BF6F56 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717D12479A37300BF6F56 /* Constant.swift */; };
+		6EE717D72479A37300BF6F56 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717D22479A37300BF6F56 /* AlertMessage.swift */; };
+		6EE717D82479A37300BF6F56 /* CharacterSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717D32479A37300BF6F56 /* CharacterSets.swift */; };
+		6EE717D92479A37300BF6F56 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717D42479A37300BF6F56 /* Regex.swift */; };
+		6EE717DA2479A37300BF6F56 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717D52479A37300BF6F56 /* Color.swift */; };
+		6EE717DF2479A40B00BF6F56 /* InteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717DC2479A40B00BF6F56 /* InteractiveViewController.swift */; };
+		6EE717E02479A40B00BF6F56 /* BaseControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717DD2479A40B00BF6F56 /* BaseControllerVC.swift */; };
+		6EE717E12479A40B00BF6F56 /* EZAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717DE2479A40B00BF6F56 /* EZAlertController.swift */; };
+		6EE717EF2479A45100BF6F56 /* AppLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE717E42479A45000BF6F56 /* AppLoader.xib */; };
+		6EE717F02479A45100BF6F56 /* AppLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717E52479A45000BF6F56 /* AppLoader.swift */; };
+		6EE717F12479A45100BF6F56 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE717E72479A45000BF6F56 /* AlertView.xib */; };
+		6EE717F22479A45100BF6F56 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717E82479A45000BF6F56 /* AlertView.swift */; };
+		6EE717F32479A45100BF6F56 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717EA2479A45000BF6F56 /* PickerView.swift */; };
+		6EE717F42479A45100BF6F56 /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE717EB2479A45000BF6F56 /* PickerView.xib */; };
+		6EE717F52479A45100BF6F56 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717ED2479A45100BF6F56 /* DatePicker.swift */; };
+		6EE717F62479A45100BF6F56 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE717EE2479A45100BF6F56 /* DatePicker.xib */; };
+		6EE717F82479A60700BF6F56 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717F72479A60600BF6F56 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +84,24 @@
 		6EE717B42479A1BA00BF6F56 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
 		6EE717B52479A1BA00BF6F56 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		6EE717B62479A1BA00BF6F56 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		6EE717CE2479A34100BF6F56 /* DateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		6EE717D12479A37300BF6F56 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6EE717D22479A37300BF6F56 /* AlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		6EE717D32479A37300BF6F56 /* CharacterSets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSets.swift; sourceTree = "<group>"; };
+		6EE717D42479A37300BF6F56 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		6EE717D52479A37300BF6F56 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		6EE717DC2479A40B00BF6F56 /* InteractiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveViewController.swift; sourceTree = "<group>"; };
+		6EE717DD2479A40B00BF6F56 /* BaseControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseControllerVC.swift; sourceTree = "<group>"; };
+		6EE717DE2479A40B00BF6F56 /* EZAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAlertController.swift; sourceTree = "<group>"; };
+		6EE717E42479A45000BF6F56 /* AppLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppLoader.xib; sourceTree = "<group>"; };
+		6EE717E52479A45000BF6F56 /* AppLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLoader.swift; sourceTree = "<group>"; };
+		6EE717E72479A45000BF6F56 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		6EE717E82479A45000BF6F56 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		6EE717EA2479A45000BF6F56 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		6EE717EB2479A45000BF6F56 /* PickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		6EE717ED2479A45100BF6F56 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		6EE717EE2479A45100BF6F56 /* DatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePicker.xib; sourceTree = "<group>"; };
+		6EE717F72479A60600BF6F56 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +148,11 @@
 		6EE7179F2479A16C00BF6F56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6EE717F92479A60E00BF6F56 /* Helper */,
+				6EE717E22479A43800BF6F56 /* View */,
+				6EE717DB2479A40300BF6F56 /* Controllers */,
+				6EE717D02479A36500BF6F56 /* Constants */,
+				6EE717CD2479A32E00BF6F56 /* Enums */,
 				6EE717A02479A1BA00BF6F56 /* Extentions */,
 			);
 			path = Classes;
@@ -144,6 +185,91 @@
 				6EE717B62479A1BA00BF6F56 /* UIColorExtensions.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		6EE717CD2479A32E00BF6F56 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717CE2479A34100BF6F56 /* DateFormat.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		6EE717D02479A36500BF6F56 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717D22479A37300BF6F56 /* AlertMessage.swift */,
+				6EE717D32479A37300BF6F56 /* CharacterSets.swift */,
+				6EE717D52479A37300BF6F56 /* Color.swift */,
+				6EE717D12479A37300BF6F56 /* Constant.swift */,
+				6EE717D42479A37300BF6F56 /* Regex.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6EE717DB2479A40300BF6F56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717DD2479A40B00BF6F56 /* BaseControllerVC.swift */,
+				6EE717DE2479A40B00BF6F56 /* EZAlertController.swift */,
+				6EE717DC2479A40B00BF6F56 /* InteractiveViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6EE717E22479A43800BF6F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717E62479A45000BF6F56 /* AlertView */,
+				6EE717E32479A45000BF6F56 /* AppLoader */,
+				6EE717EC2479A45100BF6F56 /* DatePicker */,
+				6EE717E92479A45000BF6F56 /* PickerView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EE717E32479A45000BF6F56 /* AppLoader */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717E42479A45000BF6F56 /* AppLoader.xib */,
+				6EE717E52479A45000BF6F56 /* AppLoader.swift */,
+			);
+			path = AppLoader;
+			sourceTree = "<group>";
+		};
+		6EE717E62479A45000BF6F56 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717E72479A45000BF6F56 /* AlertView.xib */,
+				6EE717E82479A45000BF6F56 /* AlertView.swift */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		6EE717E92479A45000BF6F56 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717EA2479A45000BF6F56 /* PickerView.swift */,
+				6EE717EB2479A45000BF6F56 /* PickerView.xib */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		6EE717EC2479A45100BF6F56 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717ED2479A45100BF6F56 /* DatePicker.swift */,
+				6EE717EE2479A45100BF6F56 /* DatePicker.xib */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		6EE717F92479A60E00BF6F56 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6EE717F72479A60600BF6F56 /* Reachability.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +332,10 @@
 			files = (
 				6E251B532476F73A0012ED4E /* LaunchScreen.storyboard in Resources */,
 				6E251B502476F73A0012ED4E /* Assets.xcassets in Resources */,
+				6EE717F42479A45100BF6F56 /* PickerView.xib in Resources */,
+				6EE717F62479A45100BF6F56 /* DatePicker.xib in Resources */,
+				6EE717F12479A45100BF6F56 /* AlertView.xib in Resources */,
+				6EE717EF2479A45100BF6F56 /* AppLoader.xib in Resources */,
 				6E251B4E2476F7370012ED4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +349,7 @@
 			files = (
 				6EE717BF2479A1BA00BF6F56 /* TextViewExtension.swift in Sources */,
 				6EE717C32479A1BA00BF6F56 /* UIViewExtensions.swift in Sources */,
+				6EE717F82479A60700BF6F56 /* Reachability.swift in Sources */,
 				6EE717BC2479A1BA00BF6F56 /* StringExtensions.swift in Sources */,
 				6EE717BE2479A1BA00BF6F56 /* UITableViewExtension.swift in Sources */,
 				6EE717CB2479A1BA00BF6F56 /* UIDeviceExtensions.swift in Sources */,
@@ -226,20 +357,33 @@
 				6EE717B92479A1BA00BF6F56 /* EZAlertControllerExtension.swift in Sources */,
 				6EE717C82479A1BA00BF6F56 /* UIButtonExtensions.swift in Sources */,
 				6EE717C52479A1BA00BF6F56 /* IntExtensions.swift in Sources */,
+				6EE717E02479A40B00BF6F56 /* BaseControllerVC.swift in Sources */,
+				6EE717D62479A37300BF6F56 /* Constant.swift in Sources */,
+				6EE717D72479A37300BF6F56 /* AlertMessage.swift in Sources */,
 				6EE717BD2479A1BA00BF6F56 /* UIViewControllerExtension.swift in Sources */,
+				6EE717DF2479A40B00BF6F56 /* InteractiveViewController.swift in Sources */,
 				6E251B4B2476F7370012ED4E /* ViewController.swift in Sources */,
 				6EE717C02479A1BA00BF6F56 /* EZSwiftFunctions.swift in Sources */,
 				6EE717C62479A1BA00BF6F56 /* TextFieldExtension.swift in Sources */,
+				6EE717D92479A37300BF6F56 /* Regex.swift in Sources */,
 				6EE717C92479A1BA00BF6F56 /* NSObjectExtensions.swift in Sources */,
 				6EE717C22479A1BA00BF6F56 /* URLExtensions.swift in Sources */,
+				6EE717F32479A45100BF6F56 /* PickerView.swift in Sources */,
+				6EE717F52479A45100BF6F56 /* DatePicker.swift in Sources */,
 				6EE717CC2479A1BA00BF6F56 /* UIColorExtensions.swift in Sources */,
 				6EE717B72479A1BA00BF6F56 /* UIStoryboardHelper.swift in Sources */,
 				6EE717BA2479A1BA00BF6F56 /* TimerExtensions.swift in Sources */,
 				6EE717C72479A1BA00BF6F56 /* UIImageExtension.swift in Sources */,
 				6E251B472476F7370012ED4E /* AppDelegate.swift in Sources */,
+				6EE717DA2479A37300BF6F56 /* Color.swift in Sources */,
 				6EE717C42479A1BA00BF6F56 /* UICollectionViewExtension.swift in Sources */,
 				6EE717BB2479A1BA00BF6F56 /* LabelExtensions.swift in Sources */,
+				6EE717F02479A45100BF6F56 /* AppLoader.swift in Sources */,
+				6EE717E12479A40B00BF6F56 /* EZAlertController.swift in Sources */,
+				6EE717F22479A45100BF6F56 /* AlertView.swift in Sources */,
 				6EE717C12479A1BA00BF6F56 /* DateExtention.swift in Sources */,
+				6EE717CF2479A34100BF6F56 /* DateFormat.swift in Sources */,
+				6EE717D82479A37300BF6F56 /* CharacterSets.swift in Sources */,
 				6EE717B82479A1BA00BF6F56 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

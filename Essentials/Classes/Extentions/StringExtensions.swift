@@ -1,6 +1,6 @@
 //
 //  StringExtensions.swift
-//  Novo
+//  Kunal Gupta
 //
 //  Created by Kunal Gupta on 28/10/17.
 //  Copyright © 2017 Kunal Gupta. All rights reserved.
@@ -33,38 +33,6 @@ extension String {
         let text = NSPredicate(format: "SELF MATCHES %@", regex)
         return text.evaluate(with: self)
     }
-    
-    func attributedString(from string: String, nonBoldRange: NSRange? , color : UIColor) -> NSAttributedString {
-        let attrs = [
-            NSAttributedString.Key.font: NovoFont.FontMetrics(NovoFont.bold(18)),
-            NSAttributedString.Key.foregroundColor: color
-        ]
-        let nonBoldAttribute = [
-            NSAttributedString.Key.font:  NovoFont.FontMetrics(NovoFont.regular()),
-        ]
-        let attrStr = NSMutableAttributedString(string: string, attributes: attrs)
-        if let range = nonBoldRange {
-            attrStr.setAttributes(nonBoldAttribute, range: range)
-        }
-        return attrStr
-    }
-    
-    func attributedString(boldWords: [String], font: UIFont? = nil) -> NSMutableAttributedString {
-        
-        let attributedString = NSMutableAttributedString(string: self, attributes: [NSAttributedString.Key.font: font ?? NovoFont.FontMetrics(NovoFont.regular())])
-        var boldFont: UIFont
-        if let font = font {
-            boldFont = NovoFont.FontMetrics(NovoFont.bold(font.pointSize))
-        } else {
-            boldFont = NovoFont.FontMetrics(NovoFont.bold())
-        }
-        for word in boldWords {
-            let range = NSString(string: self).range(of: word)
-            attributedString.setAttributes([NSAttributedString.Key.font: boldFont], range: range)
-        }
-        return attributedString
-    }
-    
     
     mutating func replaceAllStrings(arrStrings:[String]){
         for str in arrStrings{

@@ -2,8 +2,8 @@
 //  UITableViewExtension.swift
 //  Kunal Gupta
 //
-//  Created by Dharmesh on 19/11/19.
-//  Copyright © 2019 Kunal Gupta Financial Corp. All rights reserved.
+//  Created by Kunal Gupta on 19/11/19.
+//  Copyright © 2019 Kunal Gupta All rights reserved.
 //
 
 import Foundation

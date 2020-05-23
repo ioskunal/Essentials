@@ -3,7 +3,7 @@
 //  Kunal Gupta
 //
 //  Created by Kunal Gupta on 12/03/19.
-//  Copyright © 2019 Kunal Gupta Financial Corp. All rights reserved.
+//  Copyright © 2019 Kunal Gupta All rights reserved.
 //
 
 import UIKit
