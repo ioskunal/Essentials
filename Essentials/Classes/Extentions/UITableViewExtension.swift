@@ -1,0 +1,26 @@
+//
+//  UITableViewExtension.swift
+//  Kunal Gupta
+//
+//  Created by Dharmesh on 19/11/19.
+//  Copyright © 2019 Kunal Gupta Financial Corp. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+extension UITableView {
+    
+    func register(identifier: String) {
+        let nib = UINib(nibName: identifier, bundle: nil)
+        self.register(nib, forCellReuseIdentifier: identifier)
+    }
+    
+    func noFooterView() {
+        self.tableFooterView = UIView.init(frame: .zero)
+    }
+    
+    func noSeparator() {
+        self.separatorStyle = .none
+    }
+}
