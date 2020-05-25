@@ -12,6 +12,8 @@
 		6E251B4E2476F7370012ED4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E251B4C2476F7370012ED4E /* Main.storyboard */; };
 		6E251B502476F73A0012ED4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E251B4F2476F73A0012ED4E /* Assets.xcassets */; };
 		6E251B532476F73A0012ED4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E251B512476F73A0012ED4E /* LaunchScreen.storyboard */; };
+		6E9686BB247C3A7E00D296FB /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9686BA247C3A7E00D296FB /* Endpoints.swift */; };
+		6E9686BD247C3AB400D296FB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9686BC247C3AB400D296FB /* APIManager.swift */; };
 		6EE717B72479A1BA00BF6F56 /* UIStoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717A12479A1BA00BF6F56 /* UIStoryboardHelper.swift */; };
 		6EE717B82479A1BA00BF6F56 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717A22479A1BA00BF6F56 /* ArrayExtensions.swift */; };
 		6EE717B92479A1BA00BF6F56 /* EZAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE717A32479A1BA00BF6F56 /* EZAlertControllerExtension.swift */; };
@@ -62,6 +64,8 @@
 		6E251B4F2476F73A0012ED4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E251B522476F73A0012ED4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E251B542476F73A0012ED4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9686BA247C3A7E00D296FB /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		6E9686BC247C3AB400D296FB /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		6EE717A12479A1BA00BF6F56 /* UIStoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardHelper.swift; sourceTree = "<group>"; };
 		6EE717A22479A1BA00BF6F56 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		6EE717A32479A1BA00BF6F56 /* EZAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAlertControllerExtension.swift; sourceTree = "<group>"; };
@@ -145,9 +149,19 @@
 			path = Essentials;
 			sourceTree = "<group>";
 		};
+		6E9686B9247C3A7300D296FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6E9686BA247C3A7E00D296FB /* Endpoints.swift */,
+				6E9686BC247C3AB400D296FB /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		6EE7179F2479A16C00BF6F56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6E9686B9247C3A7300D296FB /* Network */,
 				6EE717F92479A60E00BF6F56 /* Helper */,
 				6EE717E22479A43800BF6F56 /* View */,
 				6EE717DB2479A40300BF6F56 /* Controllers */,
@@ -355,6 +369,7 @@
 				6EE717CB2479A1BA00BF6F56 /* UIDeviceExtensions.swift in Sources */,
 				6EE717CA2479A1BA00BF6F56 /* UIApplicationExtensions.swift in Sources */,
 				6EE717B92479A1BA00BF6F56 /* EZAlertControllerExtension.swift in Sources */,
+				6E9686BB247C3A7E00D296FB /* Endpoints.swift in Sources */,
 				6EE717C82479A1BA00BF6F56 /* UIButtonExtensions.swift in Sources */,
 				6EE717C52479A1BA00BF6F56 /* IntExtensions.swift in Sources */,
 				6EE717E02479A40B00BF6F56 /* BaseControllerVC.swift in Sources */,
@@ -378,6 +393,7 @@
 				6EE717DA2479A37300BF6F56 /* Color.swift in Sources */,
 				6EE717C42479A1BA00BF6F56 /* UICollectionViewExtension.swift in Sources */,
 				6EE717BB2479A1BA00BF6F56 /* LabelExtensions.swift in Sources */,
+				6E9686BD247C3AB400D296FB /* APIManager.swift in Sources */,
 				6EE717F02479A45100BF6F56 /* AppLoader.swift in Sources */,
 				6EE717E12479A40B00BF6F56 /* EZAlertController.swift in Sources */,
 				6EE717F22479A45100BF6F56 /* AlertView.swift in Sources */,
