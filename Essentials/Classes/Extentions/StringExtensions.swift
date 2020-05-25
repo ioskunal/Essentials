@@ -221,7 +221,6 @@ extension String {
         UIPasteboard.general.string = self
     }
     
-    
     public func date(_ dateFormat: DateFormat) -> Date? {
         let dateFormate = DateFormatter()
         dateFormate.dateFormat = dateFormat.rawValue
@@ -259,6 +258,22 @@ extension String {
             }
         }
         return result
+    }
+    
+    func date(format: DateFormat) -> Date? {
+        let formatter = DateFormatter()
+        formatter.timeZone = TimeZone.autoupdatingCurrent
+        formatter.locale = Locale.current
+        formatter.dateFormat = format.rawValue
+        return formatter.date(from: self)
+    }
+    
+    func changeFormat(_ from: DateFormat, _ to: DateFormat) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = from.rawValue
+        let date = dateFormatter.date(from: self)
+        dateFormatter.dateFormat = to.rawValue
+        return dateFormatter.string(from: date!)
     }
     
 }

@@ -83,22 +83,3 @@ extension Date {
         return newDate + day + " \(year)"
     }
 }
-
-extension String {
-    
-//    public func date(format: DateFormat) -> Date? {
-//        let formatter = DateFormatter()
-//        formatter.timeZone = TimeZone.autoupdatingCurrent
-//        formatter.locale = Locale.current
-//        formatter.dateFormat = format.rawValue
-//        return formatter.date(from: self)
-//    }
-//    
-//    func changeFormat(_ from: DateFormat, _ to: DateFormat) -> String {
-//        let dateFormatter = DateFormatter()
-//        dateFormatter.dateFormat = from.rawValue
-//        let date = dateFormatter.date(from: self)
-//        dateFormatter.dateFormat = to.rawValue
-//        return dateFormatter.string(from: date!)
-//    }
-}
